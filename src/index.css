@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #080c18;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+.font-serif-dream {
+  font-family: 'Playfair Display', serif;
+}
+
+@keyframes gentle-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1.5deg); }
+}
+
+@keyframes star-twinkle {
+  0%, 100% { opacity: 0.25; transform: scale(0.85); }
+  50% { opacity: 0.95; transform: scale(1.15); }
+}
+
+@keyframes cloud-drift {
+  0% { transform: translateX(-5%); }
+  50% { transform: translateX(5%); }
+  100% { transform: translateX(-5%); }
+}
+
+.animate-float {
+  animation: gentle-float 5s ease-in-out infinite;
+}
+
+.animate-twinkle {
+  animation: star-twinkle 3s ease-in-out infinite;
+}
+
+.animate-cloud {
+  animation: cloud-drift 24s ease-in-out infinite;
+}

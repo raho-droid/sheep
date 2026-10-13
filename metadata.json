@@ -1,0 +1,6 @@
+{
+  "name": "İyi Uykular - Koyun Sayma & Uyku Bahçesi",
+  "description": "Uykusu kaçan sevdiğiniz için animasyonlu koyunlar, rahatlatıcı ninni sesleri ve tatlı iyi geceler mesajları içeren huzur dolu web sitesi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
